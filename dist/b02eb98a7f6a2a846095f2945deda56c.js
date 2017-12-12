@@ -65,7 +65,14 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({5:[function(require,module,exports) {
+})({6:[function(require,module,exports) {
+var Hoge = /** @class */ (function () {
+    function Hoge() {
+    }
+    return Hoge;
+}());
+(function () {
+});
 
 },{}],0:[function(require,module,exports) {
 var global = (1, eval)('this');
@@ -183,4 +190,4 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id)
   });
 }
-},{}]},{},[0,5])
+},{}]},{},[0,6])
