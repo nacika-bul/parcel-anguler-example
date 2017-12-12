@@ -1,0 +1,15 @@
+{
+  "name": "pa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "parcel": "parcel",
+    "install": "cp -r ./node_modules/parcel-bundler/src/ ./node_modules/parcel-bundler/lib/"
+  },
+  "dependencies": {
+    "parcel-bundler": "https://github.com/parcel-bundler/parcel.git",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {}
+}
